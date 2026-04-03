@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background: #eaeaea;
+  overflow: hidden;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;   /* 👈 important */
+}
+
+.title{
+  position:absolute;
+  top: 120px;
+  left : 50%; 
+  transform: translateX(-50%)rotate(-1deg);
+  width: 900px;
+}
+
+.start-btn{
+  position: absolute;
+  top: 580px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.start-btn:hover{
+  transform: translateX(-50%)scale(1.1);
+}
+
+/* About (top-left) */
+.about {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  width: 100px;
+}
+
+/* Top-right star */
+.top-star {
+  position: absolute;
+  top: 55px;
+  right: 60px;
+  width: 130px;
+}
+
+/* CDs → anchor bottom-left properly */
+.cd {
+  position: absolute;
+  left: 20px;
+  bottom: 5px;
+  width: 360px;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 57px;   /* 👈 SAME as pin */
+  right: 150px;   /* 👈 left of pin */
+  width: 310px;   /* slightly bigger */
+  transform: rotate(10deg);
+}
+
+/* Pin → bigger and below arrow */
+.pin1 {
+  position: absolute;
+  bottom: 37px;    /* 👈 not glued to edge */
+  right: 55px;     /* 👈 some breathing space */
+  width: 180px;    /* 👈 slightly bigger */
+  transform: rotate(5deg);
+}
