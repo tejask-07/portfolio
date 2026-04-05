@@ -1,7 +1,11 @@
 body {
   margin: 0;
-  background: #eaeaea;
-  overflow: hidden;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 .hero {
@@ -72,4 +76,148 @@ body {
   right: 55px;     /* 👈 some breathing space */
   width: 180px;    /* 👈 slightly bigger */
   transform: rotate(5deg);
+}
+
+.projects{
+  position: relative;
+  height: 200vh;
+  background: #fff;
+  border-top: 2px solid black;
+}
+
+.projects-title{
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+}
+
+.folder{
+  position: absolute;
+  top: 80px;
+  left: 120px;
+  width: 110px;
+  transform: rotate(-1deg);
+}
+
+.ascii-img{
+  position: absolute;
+  top: 240px;
+  left: 70px;
+  width: 610px;
+  transform: rotate(-1deg);
+}
+
+.ascii-desc{
+  position: absolute;
+  top: 160px;
+  right: 40px;
+  width: 560px;
+  transform: rotate(2deg);
+}
+
+.star2{
+  position: absolute;
+  top: 740px;
+  right:70px;
+  width: 140px;
+}
+
+.ray-title{
+  position: absolute;
+  top: 930px;
+  left: 65px;
+  width: 500px;
+  transform: rotate(1deg);
+}
+
+.ray-desc{
+  position: absolute;
+  top:1070px;
+  left: 60px;
+  width: 920px;
+  transform: rotate(1deg);
+}
+
+.ray-window{
+  position: absolute;
+  top: 1290px;
+  right: 40px;
+  width: 720px;
+}
+
+.cursor{
+  position: absolute;
+  top : 1640px;
+  right: 100px;
+  width: 60px;
+  transform: rotate(2deg);
+}
+
+.xavier{
+  position: absolute;
+  top: 1400px;
+  left: 120px;
+  width: 175px;
+}
+
+.contact{
+  position: relative;
+  height: 100vh;
+  background: #fff;
+  border-top: 2px solid black;
+}
+
+.skills-title{
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+}
+
+.skills-pc{
+  position: absolute;
+  top: 250px;
+  left:300px;
+  width: 820px;
+}
+
+.i-said{
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  width: 130px;
+}
+
+.hein{
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  width: 180px;
+  transform: rotate(2deg);
+}
+
+.contact-title{
+  position: absolute;
+  top: 550px;
+  left: 60px;
+  width: 1150px;
+  transform: rotate(1deg);
+}
+
+.github-title{
+  position: absolute;
+  top:730px;
+  left : 60px;
+  width: 650px;
+  transform: rotate(1deg);
+}
+
+.sleep{
+  position: absolute;
+  top: 720px;
+  right: 100px;
+  width: 190px;
 }
