@@ -1,12 +1,16 @@
 .site-wrapper{
   width: 1440px;
   margin: 0 auto;
-  transform-origin: top left;
+  transform-origin: top center;
 }
 
 @media (max-width:1440px){
   .site-wrapper{
-    transform: scale(calc(100vw/1440px));
+    transform: scale(calc(100vw/1440px*0.95));
+  }
+
+  body{
+    height: calc(100vh/(100vw/1440));
   }
 }
 
